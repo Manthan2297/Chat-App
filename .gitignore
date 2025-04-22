@@ -1,0 +1,51 @@
+# ======================
+# Node & Express Backend
+# ======================
+back/node_modules/
+back/.env
+back/.DS_Store
+back/dist/
+back/logs/
+back/debug.log
+
+# Optional: ignore MongoDB local DBs
+*.local
+dump/
+
+# ================
+# React Frontend
+# ================
+front/node_modules/
+front/dist/
+front/.env
+front/.DS_Store
+front/.vite
+
+# ====================
+# OS and Editor Files
+# ====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============
+# Logs
+# ===============
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# Build and Cache Files
+# ======================
+.env
+*.cache
+.cache/
+*.bak
+*.tmp
+
+# Optional: ignore test coverage
+coverage/
